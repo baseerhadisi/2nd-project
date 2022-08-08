@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgba(0, 0, 0,0.6 ) url("images/food.jpg")   center fixed  ;
+    background-size: cover;
+    background-blend-mode: darken;
+
+
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+header h1{
+    color: orange;
+    font-size: 40px;
+    margin: 30px;
+}
+header span{
+    color: white;
+    font-size: 50px;
+}
+nav ul li{
+    display:inline-block ;
+    padding: 20px;
+    list-style: none;
+    margin: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 900;
+    
+
+}
+.rs{
+    background-color: orange;
+    padding: 5px;
+
+}
+nav ul li a:hover{
+    font-size: 30px;
+    background-color: yellow;
+    color: red;
+    transition: 1.5s;
+}
+main {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    color: wheat;
+}
+main h2{
+    margin-left:20px ;
+    text-align: center;
+
+}
+main h1{
+    text-align: center;
+}
+main p{
+    text-align: center;
+
+}
+.search{
+    position: absolute;
+    top: 70%;
+    left: 55%;
+   
+}
+input{
+    padding: 15px;
+    width: 300px;
+   
+    border-radius: 40px;
+}
+button{
+    position: absolute;
+    top: 80%;
+    left: 62%;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 900;
+    background-color: orange;
+    border-radius: 40px;
+
+
+}
+button:hover{
+    background-color: yellow;
+    color: red;
+
+}
